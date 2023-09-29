@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* font add start */
+body{
+  
+    font-family: 'Open Sans', sans-serif;
+   
+}
+h1,h2 {
+    font-family: 'Abril Fatface', cursive;
+
+}
+h3,h4,h5,h6,button,a{
+      font-family: 'Ubuntu', sans-serif;
+}
+
+/*font add end  */
+
+/* common css start */
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+/* top-bar section start */
+
+#top-bar{
+    background-color: #0f2f44;
+    
+}
+#top-bar p{
+    text-align: center;
+    padding: 12px 0px;
+    color: #fefefe;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:'Ubuntu', sans-serif ;
+    
+}
+/* top-bar section end */
+
+/* nav section start */
+.menu{
+   padding: 40px 0px;
+}
+.menu ul li a {
+    padding: 40px 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #0f2f44;
+}
+.menu ul li a{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-left: 25px;
+}
+.menu ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+}
+.menu  ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    border: 1px solid #dedede;
+    margin-left: 20px;
+
+}
+.menu ul li button:hover{
+    cursor: pointer;
+    background-color:#fff9e6 ;
+    color: #ffc712;
+}
+/* nav section end */
+
+/* your success start */
+#banner{
+    background-image: url(./../image/banner-background-img.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    
+}
+#banner .your-success-info{
+    padding-top: 140px;
+}
+.your-success-info h3 {
+    color: #0f2f44;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.your-success-info h1{
+    font-size: 80px;
+    line-height: 70px;
+    color: #0f2f44;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.your-success-info h4{
+    color: #8484bf;
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    padding-bottom: 20px;
+}
+.your-success-info p{
+    color: #444444;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.your-success-info button{
+    background-color: #8484bf;
+    color: #ffffff;
+    border: none;
+    width: 160px;
+    height: 45px;
+    font-size: 17px;
+    line-height: 24px;
+    border-radius: 5%;
+}
+.your-success-info ul li {
+   padding-left: 20px;
+}
+.your-success-info ul li button{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     border: none;
+     background-color: #ffffff;
+     color: #8484bf;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     margin:  0px 10px;
+}
+.your-success-info ul li button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #8484bf ;
+}
+/* your success end */
+
+/* about section start */
+#about-us .about-us-info{
+    padding-top: 100px;
+}
+#about-us .img{
+    padding-top: 100px;
+}
+.about-us-info h4 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+    line-height: auto;
+}
+.about-us-info p {
+    font-size: 14px;
+    color: #0f2f44;
+    line-height: auto;
+    font-size: 14px;
+}
+.about-us-info h2 {
+    font-size: 32px;
+    color: #0f2f44;
+padding-top: 10px;
+padding-bottom: 30px;
+line-height: auto;
+}
+.about-us-info .button-1 {
+    background-color:#ffffff ;
+    color: #0f2f44;
+    text-transform: capitalize;
+    padding: 1px 15px; 
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    border-color: #eeeeee;
+    margin: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 25px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.about-us-info .button-1:hover{
+    cursor: pointer;
+    background-color: #ffc712;
+    }
+.about-us-info .button-2 {
+    background-color:#ffffff ;
+    color: #0f2f44;
+    text-transform: capitalize;
+    padding: 1px 15px; 
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    border-color: #eeeeee;
+    margin: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 25px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.about-us-info .button-2:hover{
+cursor: pointer;
+background-color: #ffc712;
+}
+/* about section end */
+
+/* our skill start */
+
+#our-skill{
+    padding: 100px;
+    display: flex;
+}
+.our-skill-info{
+    text-align: right;
+}
+.our-skill-info h4 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+    line-height: auto;
+    text-align: right;
+}
+.our-skill-info h2 {
+    font-size: 32px;
+    line-height: auto;
+    padding-bottom: 25px;
+    text-align: right;
+    color: #0f2f44;
+}
+.our-skill-info p {
+    font-size: 14px;
+    color: #0f2f44;
+    line-height: auto;
+     font-size: 14px;
+     text-align: right;
+     padding-bottom: 45px;
+}
+/* our skill end */
+
+/* our services info start */
+#our-services{
+    background-color: #f5f5f5;
+    height: 425px;
+    padding: 60px 0px;
+}
+#our-services .service-info h4{
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+    text-align: center;
+
+}
+#our-services .service-info h2{
+    font-size: 32px;
+    color: #0f2f44;
+    padding-bottom: 55px;
+    text-align: center;
+}
+#our-services .service-box-icon{
+    width: 100px;
+}
+#our-services .service-box{
+    background-color: #e9e9e9;
+    align-items: center;
+   width: calc(100% / 3 - 30px);
+    padding: 26px 22px;
+    margin: 0px 15px;
+}
+#our-services .service-box-info{
+    width: calc(100% - 100px);
+}
+#our-services .service-box-info p{
+    font-size: 14px;
+    line-height: 24px;
+    columns: #444444;
+    padding-top: 22px;
+}
+#our-services .service-box-info h3 {
+    color: #222222;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: auto;
+}
+/* our service info end */
